@@ -1,0 +1,67 @@
+# Kran
+#Bu o'yin faqat kodlarni yozish orqali ishlaydi, lekin video tasviri mavjud emas noqulayliklar uchun uzr
+print("""
+        k oldinga=kranni oldinga yurgazish
+        k orqaga=kranni orqaga yurgizish
+        k o'nga=kranni o'nga burish
+        k chapga =kranni chapgga burish
+        k to'xta=kranni to'xtatish
+        u chapga=ustunni chapga burish
+        u o'ngga= ustunni o'ngga burish
+        t tepaga=trosni tepaga ko'tarish
+        t pastga=trosni pastga tushirish
+        i b ni ushla=ilgak betonni ushlashi
+        i b ni qo'yib yubor=ilgak betonni qo'yib yuborishi
+        i t ni ushla= ilgak tomni ushlashi
+        i t ni qo'yib yubor=ilgak tomni qo'yib yuborishi
+        """)
+
+buyruq=" "
+while buyruq.lower() !="chiqish":
+    buyruq=input(">> ").lower()
+    if buyruq=="k oldinga":
+        print("kran oldinga yurdi")
+    elif buyruq =="k orqaga":
+        print("kran orqaga yurdi")
+    elif buyruq =="k o'ngga":
+        print("kran o'ngga burildi")
+    elif buyruq =="k chapga":
+        print("kran chapga burildi")
+    elif buyruq == "k to'xta":
+        print("kran to'xtadi")
+    elif buyruq =="u chapga":
+        print("ustun chapga burildi")
+    elif buyruq =="u o'nga":
+        print("ustun o'nga burildi")
+    elif buyruq =="t tepaga":
+        print("tros tepaga ko'tarildi")
+    elif buyruq =="t pastga":
+        print("tros pastga tushdi")
+    elif buyruq =="i b ni ushla":
+        print("ilgak betonni ushladi")
+    elif buyruq =="i b ni qo'yib yubor":
+        print("ilgak betonni qo'yib yubordi")
+    elif buyruq =="i t ni ushla":
+        print("ilgak tomni ushladi")
+    elif buyruq =="i t ni qo'yib yubor":
+        print("ilgak tomni qo'yib yubordi")
+    elif buyruq =="yordam":
+        print("""
+        k oldinga=kranni oldinga yurgazish
+        k orqaga=kranni orqaga yurgizish
+        k o'nga=kranni o'nga burish
+        k chapga =kranni chapgga burish
+        k to'xta=kranni to'xtatish
+        u chapga=ustunni chapga burish
+        u o'ngga= ustunni o'ngga burish
+        t tepaga=trosni tepaga ko'tarish
+        t pastga=trosni pastga tushirish
+        i b ni ushla=ilgak betonni ushlashi
+        i b ni qo'yib yubor=ilgak betonni qo'yib yuborishi
+        i t ni ushla= ilgak tomni ushlashi
+        i t ni qo'yib yubor=ilgak tomni qo'yib yuborishi
+        """)
+    elif buyruq=="chiqish":
+        print("o'yin tugadi")
+else:
+    print("nimadir xato ketdi")
