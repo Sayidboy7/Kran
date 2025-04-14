@@ -1,0 +1,1 @@
+O'yinni o'rnatish uchun shu .02 faylini yuklab olasiz va uni python IDLE 3.12 versioyasi bilan ochasiz DIQQAT! boshqa python versiyalarida ishlamasligi mumkin! Kodlarni kiritasiz va tamom.Noqulaylilar uchun uzr.
